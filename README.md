@@ -27,3 +27,4 @@ Manipuler les données d'une api avec des requêtes ajax pour afficher des infor
 - Utiliser Gulp,
 - Avoir un css et un js minifier,
 - Utilisation de jQuery.
+- Utiliser Sass, pas de framework.
