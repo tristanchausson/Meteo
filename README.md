@@ -30,7 +30,7 @@ Manipuler les données d'une api avec des requêtes ajax pour afficher des infor
 - Créer un champ texte qui va ajouter des villes et afficher sa météo,
 - Stocker toutes les villes enregistrer dans le **LOCALSTORAGE**,
 - Utilisation **[Mustach](https://github.com/janl/mustache.js)**
-- avec l'api de **[leaflet](http://leafletjs.com/reference-1.2.0.html)** et la longitude et latitude récuppérer grace à openweathermap ajouter un markeur sur la map.
+- avec l'api de **[leaflet](http://leafletjs.com/reference-1.2.0.html)** et la longitude et latitude récupérer grace à openweathermap ajouter un markeur sur la map.
 - [wireframe](https://screenshots.firefox.com/slzlhIC4fXZysQLU/wireframe.cc)
 
 ### Contrainte : 
