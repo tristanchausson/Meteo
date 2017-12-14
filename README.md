@@ -8,7 +8,7 @@ Manipuler les données d'une api avec des requêtes ajax pour afficher des infor
 
 > Regarder le wireframe pour la mise en page !
 
-- Récuperer votre clef d'api pour openweathermap
+- Récuperer votre clef d'api pour openweathermap (si besoin !)
 - Avec la documentation de **[openweathermap](https://www.openweathermap.org/current)** afficher la Météo de cahors
 - Dans une jolie **card** afficher le nom de la ville, les coordonnées GPS, la vitesse du vent, le taux d'humidité, la pression, la temperature/min/max (convertie en Celius).
 - [wireframe](https://screenshots.firefox.com/R6pn3jl26dmekiwp/wireframe.cc)
