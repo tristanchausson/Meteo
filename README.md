@@ -12,7 +12,18 @@ Manipuler les données d'une api avec des requêtes ajax pour afficher des infor
 - Avec la documentation de **[openweathermap](https://www.openweathermap.org/current)** afficher la Météo de cahors
 - Dans une jolie **card** afficher le nom de la ville, les coordonnées GPS, la vitesse du vent, le taux d'humidité, la pression, la temperature/min/max (convertie en Celius).
 - [wireframe](https://screenshots.firefox.com/R6pn3jl26dmekiwp/wireframe.cc)
-
+- Utiliser [L'HTML5 Boilerplate](https://raw.githubusercontent.com/h5bp/html5-boilerplate/master/src/index.html)
+- Votre projet doit contenir un dossier :
+```
+  ├─assets/
+  │ ├─css/
+  │ ├─img/
+  │ └─js/
+  │
+  └─dist/
+    ├─js/
+    └─scss/
+```
 
 ### Bonus :
 
