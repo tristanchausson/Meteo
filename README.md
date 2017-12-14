@@ -16,13 +16,13 @@ Manipuler les données d'une api avec des requêtes ajax pour afficher des infor
 - Votre projet doit contenir un dossier :
 ```
   ├─assets/
-  │ ├─css/
-  │ ├─img/
-  │ └─js/
-  │
+  │ ├─js/
+  │ └─scss/
+  │   └─components/
   └─dist/
-    ├─js/
-    └─scss/
+    ├─css/
+    ├─img/
+    └─js/
 ```
 
 ### Bonus :
