@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="dist/css/main.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+        integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+        crossorigin=""/>
+     
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <!--<p>Hello world! This is HTML5 Boilerplate.</p>-->
+        <div class="frame">
+            <div class="find">
+                <form name="formbarre">
+                    <input type="text" name="barre" id="barre" placeholder= "votre ville..." />
+                </form>
+                <button class="bouton">Obtenir la météo</button>
+            </div>
+            <div class="cartes">
+                <div class="card">
+                    <div id="carto"></div>  
+                    <div>
+                        
+                    <div class="infos">
+                        <ul>
+                            <li id="l1"></li>
+                            <li id="l2"></li>
+                            <li id="l3"></li>
+                            <li id="l4"></li>
+                            <li id="l5"></li>
+                            <li id="l6"></li>
+                            <li id="l7"></li>
+                            <li id="l8"></li>
+                            
+                        </ul>
+                    </div> 
+                    </div>               
+                </div>
+                <div class="card2">
+                    <div id="carto2"></div>  
+                    <div>
+                        
+                    <div class="infos2">
+                        <ul>
+                            <li id="l9"></li>
+                            <li id="l10"></li>
+                            <li id="l11"></li>
+                            <li id="l12"></li>
+                            <li id="l13"></li>
+                            <li id="l14"></li>
+                            <li id="l15"></li>
+                            <li id="l16"></li>
+                            
+                        </ul>
+                    </div> 
+                    </div>               
+                </div>
+            </div>
+        </div>
+       
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      
+        <script src="dist/js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+        integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+        crossorigin=""></script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background-color: #38383d;
+}
+
+.frame{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.find{
+    text-align: center;
+    line-height: 3;
+    padding-top: 15px;
+}
+
+input{
+    padding: 8px;
+    border-style: solid;
+    border-color: green;
+    background-color: rgb(205, 245, 205);
+    border-radius: 5px;
+    width: 400px;
+}
+
+button{
+    padding: 5px;
+    border-style: solid;
+    border-color: green;
+    background-color: rgb(238, 245, 178);
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    line-height: 2;
+    font-size: 14px;
+    margin-right: 4%;
+}
+
+.card{
+    display: flex;
+/*    position: absolute; /* postulat de départ */
+/*    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+/*    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    width: 450px;
+    height: 300px;    
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ef9c8e;
+    background-color: #f9f4f3;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#carto{
+    margin: auto;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    background-color: #ffffff;
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.infos{
+    vertical-align: center;
+}
+
+.card2{
+    display: flex;
+/*    position: absolute; /* postulat de départ */
+/*    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+/*    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    width: 450px;
+    height: 300px;    
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ef9c8e;
+    background-color: #f9f4f3;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#carto2{
+    margin: auto;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+    background-color: #ffffff;
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.infos2{
+    vertical-align: center;
+}
+
+.cartes{
+    display: flex;
+}
